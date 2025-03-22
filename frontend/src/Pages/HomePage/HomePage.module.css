@@ -1,0 +1,121 @@
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.titleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 0;
+
+}
+
+.titleContainer p {
+  margin: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.lineContainer {
+  height: 1px;
+  width: 75%;
+  background-color: #000;
+  margin-top: 1rem;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+.text1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.main {
+  width: 75%;
+}
+ 
+.formCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.formCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0.9rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.formCard:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+
+.formTitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.classBtn {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.classBtn button {
+  border: none;
+  background: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: 550;
+  font-family: "Poppins", sans-serif;
+}
+
+.viewBtn {
+  color: rgb(22, 179, 22);
+}
+.editBtn {
+  color: rgb(0, 221, 255);
+}
+.responseBtn {
+  color: rgb(139, 0, 146);
+}
+.deleteBtn {
+  color: red;
+}
+
