@@ -592,4 +592,16 @@
   .inputTypeButtons {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .emptyState {
+    width: 100%;
+  }
+
+  .formElements {
+    grid-auto-rows: 170px;
+  }
+
+  .formElement {
+    height: 8rem;
+  }
 }
