@@ -1,4 +1,5 @@
-const URL = "http://localhost:3000/api/response";
+// const URL = "http://localhost:3000/api/response";
+const URL = "https://formbuilder-3um8.onrender.com/api/response";
 
 // Submit form response
 export const submitFormResponse = async (formId, responses) => {

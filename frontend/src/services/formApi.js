@@ -1,4 +1,5 @@
-const URL = "http://localhost:3000/api/form";
+// const URL = "http://localhost:3000/api/form";
+const URL = "https://formbuilder-3um8.onrender.com/api/form";
 
 export const getAllForm = async () => {
   return fetch(URL, {

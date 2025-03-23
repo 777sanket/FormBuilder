@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/view/:formId",
+      "destination": "/"
+    },
+    {
+      "source": "/edit/:formId",
+      "destination": "/"
+    },
+    {
+      "source": "/response/:formId",
+      "destination": "/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/"
+    }
+  ]
+}
